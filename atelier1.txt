@@ -1,0 +1,13 @@
+1) man ls
+2) pwd
+3) ls
+4) cd /
+5) ls -l
+6) whoami
+7) history
+8) flèche du haut
+9) cat nom.txt
+10) firefox
+11) mkdir nom
+    touch nom
+12) rm -r nom
