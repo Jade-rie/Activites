@@ -6,4 +6,12 @@
 6) grep -l Hello * | wc -l
 7) python -c "credits()"
 8) cat *.py | sed '/^\s*$/d' | wc -l
-9) 
+9) sort tsts.txt | uniq -d
+10) ls -l | awk '{print $1, $9}'
+11) find . -type f -exec du -ah {} + | sort -rh | head -n 10
+12) sort fichier1.txt > sortedFichier1.txt
+    sort fichier2.txt > sortedFichier2.txt
+    comm -12 sortedFichier1.txt sortedFichier2.txt
+13) find . -perm +111 -type f
+14) find . -type f -empty
+15) find . -type f -mtime -1
